@@ -37,7 +37,7 @@ class Quiz {
     textSize(30);
     fill("black");
     text("Showing the result of Quiz", 250, 20);
-    text("-----------------------------------",250,38)
+    text("-----------------------------------",250,38);
     //call getContestantInfo( ) here
     Contestant.getPlayerInfo();
     //write condition to check if contestantInfor is not undefined
